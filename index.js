@@ -1,5 +1,3 @@
-let n = 5;
+let agora = new Date();
 
-for (let i = 0; i <= 10; i++) {
-    console.log(`${i} X ${n} = ${i*n}`);
-}
+console.log(agora.toLocaleDateString("pt-BR"));
