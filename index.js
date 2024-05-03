@@ -1,3 +1,14 @@
-let agora = new Date();
+class celular {
+    constructor(){
+        this.cor = "preto";
+    }
 
-console.log(agora.toLocaleDateString("pt-BR"));
+    ligar(){
+        console.log("Uma ligação");
+        return "ligando";
+    }
+}
+
+let objeto = new celular();
+
+console.log(objeto.ligar());
